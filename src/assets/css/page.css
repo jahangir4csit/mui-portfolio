@@ -1,0 +1,146 @@
+/* **** Page Style ***/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+body{
+  font-family: "Roboto", Arial, sans-serif;
+  background: #f8f8f8;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #999999;
+  letter-spacing: .2px;
+}
+h1,h2,h3,h4,h5,h6{
+  letter-spacing: .3px;
+}
+a{
+  text-decoration: none;
+}
+a:hover,a:focus,a:active{
+  text-decoration: none!important;
+}
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+.mb-5{
+  margin-bottom: 3rem !important;
+}
+.mt-5{
+  margin-top: 3rem !important;
+}
+.pr-4{
+  padding-right: 1.5rem;
+}
+.pl-4{
+  padding-left: 1.5rem;
+}
+.py-3 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+.p-4 {
+  padding: 1.5rem !important;
+}
+.text-mute{
+  font-family: roboto,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #999;
+}
+
+.main-content{
+  padding-top: 100px;
+}
+
+.MuiTab-textColorInherit.Mui-selected{
+  height: 100%;
+  background-color: #3e9ff9;
+}
+
+/* Slider **** */
+ .subheading {
+  font-weight: 700;
+  color: #0779e4;
+  font-size: 13px;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  background: #fff;
+  border-radius: 4px;
+  padding: 4px 9px;
+}
+.subheading:after {
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #fff transparent transparent transparent;
+}
+.slider-text h1{
+  font-weight: 400;
+  color: #fff;
+  font-size: 60px;
+  line-height: 1.2;
+}
+.slider-text .social-media {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.slider-text .social-media a {
+  color: #fff;
+  margin-right: 15px;
+}
+
+.page-heading{
+  width: 100%;
+}
+.page-heading h4{
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+  color: #0779e4;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+}
+.page-heading h2{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.MuiCardActionArea-focusHighlight{
+  background-color: #0779e4!important;
+  opacity: 0!important;
+}
+.MuiCardActionArea-root:hover .MuiCardActionArea-focusHighlight{
+  opacity: .9!important;
+}
+.card-content{
+  opacity: 0;
+  position: relative;
+  z-index: 9999999999;
+  color: #fff;
+}
+.card-content h3 a{
+  color: #fff!important;
+}
+.card-content span{
+  color: #fff;
+  text-transform: uppercase;
+}
+.MuiCardActionArea-root:hover .card-content{
+  opacity: 1;
+}
